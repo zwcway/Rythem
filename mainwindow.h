@@ -3,8 +3,10 @@
 
 #include <QtGui>
 #include <QtCore>
+#include <QMenu>
 #include <QtNetwork>
 #include <QtWebKit>
+#include <QMainWindow>
 #include "rytablemodel.h"
 #include "proxy/rypipedata.h"
 

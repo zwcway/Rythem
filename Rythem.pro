@@ -106,7 +106,7 @@ mac:CONFIG += app_bundle
 
 
 
-win32:LIBS += D:\QtSDK\mingw\lib\libwininet.a
+win32:LIBS += D:\UserDirectory\cygwin64\root32\lib\w32api\libwininet.a D:\UserDirectory\cygwin64\root32\lib\libz.a
 mac:LIBS += -framework SystemConfiguration -framework coreFoundation -lz
 unix:LIBS += -lz
 

@@ -4,6 +4,10 @@
 #include <QtGui>
 #include <QtNetwork>
 #include "proxy/rypipedata.h"
+#include <QtGlobal>
+#if QT_VERSION >= 0x050000
+# include <QtWidgets>
+#endif
 
 namespace Ui {
     class Composer;

@@ -24,7 +24,7 @@
 // Set and queried using Internet[Set|Query]Option with
 // INTERNET_OPTION_PER_CONNECTION_OPTION
 //
-
+/*
 typedef struct {
     DWORD   dwOption;            // option to be queried or set
     union {
@@ -41,6 +41,7 @@ typedef struct {
         FILETIME ftValue;        // file-time value for the option
     } Value;
 } INTERNET_PER_CONN_OPTIONW, * LPINTERNET_PER_CONN_OPTIONW;
+
 #ifdef UNICODE
 typedef INTERNET_PER_CONN_OPTIONW INTERNET_PER_CONN_OPTION;
 typedef LPINTERNET_PER_CONN_OPTIONW LPINTERNET_PER_CONN_OPTION;
@@ -106,7 +107,7 @@ typedef LPINTERNET_PER_CONN_OPTION_LISTA LPINTERNET_PER_CONN_OPTION_LIST;
 #define AUTO_PROXY_FLAG_CACHE_INIT_RUN                  0x00000020   // don't initalize and run unless URL expired
 #define AUTO_PROXY_FLAG_DETECTION_SUSPECT               0x00000040   // if we're on a LAN & Modem, with only one IP, bad?!?
 
-
+*/
 
 class RyWinHttp : public QObject
 {

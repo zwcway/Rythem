@@ -4,23 +4,23 @@
 
 
 #ifdef Q_OS_WIN32
-#include "WinInet.h"
-#include "winnetwk.h"
-#include "windows.h"
-#include "proxy/rywinhttp.h"
+# include "WinInet.h"
+# include "winnetwk.h"
+# include "windows.h"
+# include "proxy/rywinhttp.h"
 #endif
 #ifdef Q_OS_MAC
-#include "proxy/proxyautoconfig.h"
-#include <CoreFoundation/CoreFoundation.h>
-#include <SystemConfiguration/SystemConfiguration.h>
-#include <SystemConfiguration/SCDynamicStoreCopySpecific.h>
-#include <SystemConfiguration/SCNetworkConfiguration.h>
+# include "proxy/proxyautoconfig.h"
+# include <CoreFoundation/CoreFoundation.h>
+# include <SystemConfiguration/SystemConfiguration.h>
+# include <SystemConfiguration/SCDynamicStoreCopySpecific.h>
+# include <SystemConfiguration/SCNetworkConfiguration.h>
 #endif
 
 #ifdef Q_OS_WIN
-#include "zlib/zlib.h"
+# include "zlib/zlib.h"
 #else
-#include <zlib.h>
+# include <zlib.h>
 #endif
 
 #include <quazip/quazip.h>
@@ -28,6 +28,8 @@
 #include "rytablesortfilterproxymodel.h"
 #include "ryupdatechecker.h"
 #include <QWebFrame>
+#include <QFileDialog>
+#include <QMessageBox>
 
 extern QString version;
 extern QString appPath;

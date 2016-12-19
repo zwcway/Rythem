@@ -3,6 +3,9 @@
 
 #include <QtEvents>
 #include <QtGui>
+#include <QtGlobal>
+#include <QTabWidget>
+#include <QTabBar>
 
 class RyTabWidget : public QTabWidget
 {

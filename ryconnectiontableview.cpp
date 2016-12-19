@@ -3,7 +3,9 @@
 #include "quazip/quazip.h"
 #include "quazip/quazipfile.h"
 #include "rytablesortfilterproxymodel.h"
-
+#include <QAction>
+#include <QMenu>
+#include <QFileDialog>
 #include "rymimedata.h"
 
 extern QString appPath;
